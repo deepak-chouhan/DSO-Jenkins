@@ -1,2 +1,2 @@
-Jenkins/jenkins-data/*
-Jenkins/jenkins-docker-certs/*
+Jenkins/jenkins-data/
+Jenkins/jenkins-docker-certs/

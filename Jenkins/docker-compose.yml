@@ -1,11 +1,12 @@
 version: '3.8'
 services:
   jenkins:
-    build:
-      context: ./
-      dockerfile: jenkins.dockerfile
+    image: jenkins/jenkins:latest-jdk11
+    # build:
+    #   context: ./
+    #   dockerfile: jenkins.dockerfile
     container_name: jenkins
-    restart: on-failure
+    restart: always
 
     networks:
       - jenkins
@@ -13,7 +14,12 @@ services:
       - ./env/jenkins.env
     volumes:
       - ./jenkins-data:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
       - ./jenkins-docker-certs:/certs/client:ro
+    user: root
+    environment:
+      - DOCKER_TLS_CERTDIR=
+    privileged: true
     ports:
       - '8080:8080'
       - '50000:50000'

@@ -59,7 +59,7 @@ Follow the steps below to install Docker Compose:
 
 - Go to the [Docker Compose releases](https://github.com/docker/compose/releases) page.
 - Copy the link for the `docker-compose-linux-x86_64` bundle. If the bundle is not visible, click on "Show all assets" to find it.
-- !["Docker](./images/docker-compose.png)
+- ![docker-compose](https://github.com/deepak-chouhan/DSO-Jenkins/assets/69458937/777f5c95-8469-42e2-ac31-3e311c834f0b)
 - Run the following command to download Docker Compose:
 
 ```bash

@@ -1,4 +1,4 @@
-# DSO-Jenkins
+# DevSecOps - Jenkins
 
 This Setup is tested on `AWS EC2 Ubuntu 22.04 amd64`. It allows you to run each job in a separate container.
 

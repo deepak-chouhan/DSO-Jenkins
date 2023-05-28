@@ -1,12 +1,11 @@
 # DSO-Jenkins
 
-This Setup is tested on <mark style="background-color: gold;padding:2px 7px">AWS EC2 Ubuntu 22.04 amd64</mark>
+This Setup is tested on `AWS EC2 Ubuntu 22.04 amd64`
 
 <br>
 
-## Documentation: Setting up Jenkins with Docker
-
-This documentation provides step-by-step instructions on how to set up Jenkins with Docker. Follow the instructions below to install and configure the necessary components.
+## Setup
+Follow the instructions below set up Jenkins with Docker
 
 ### 1. Update System Packages
 

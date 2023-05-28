@@ -1,8 +1,25 @@
 # DSO-Jenkins
 
-This Setup is tested on `AWS EC2 Ubuntu 22.04 amd64`
+This Setup is tested on `AWS EC2 Ubuntu 22.04 amd64`. It allows you to run each job in a separate container.
 
-<br>
+```groovy
+// Example Pipeline
+
+pipeline {
+  agent {
+    docker { image 'node:16-alpine' }
+  }
+  stages {
+    stage('Test') {
+      steps {
+        sh 'node --version'
+      }
+    }
+  }
+}
+```
+
+The pipeline above downloads the image `node:16-alpine1` from Docker Hub, creates a container based on it, then runs the pipeline in that container. 
 
 ## Setup
 Follow the instructions below set up Jenkins with Docker

@@ -2,6 +2,11 @@
 
 This Setup is tested on `AWS EC2 Ubuntu 22.04 amd64`. It allows you to run each job in a separate container.
 
+![jenkinsxdocker](https://github.com/deepak-chouhan/DSO-Jenkins/assets/69458937/0fe7490e-abdb-43fe-a670-14ac5957c3cb)
+
+
+## Demo
+
 [demo.webm](https://github.com/deepak-chouhan/DSO-Jenkins/assets/69458937/93f91ce9-7e21-4290-aad8-2fcc5d15db77)
 
 
